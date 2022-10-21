@@ -1,0 +1,94 @@
+HTML: 웹사이트의 틀을 작성하는 언어
+CSS: HTML 문서를 시각적으로 만들어주는 언어
+JavaScript: HTML문서의 컨텐츠 내용을 바꾸고 동적인 페이지를 만들기 위해 사용하는 프로그래밍 언어
+
+JSP
+Spring
+Python
+
+최초의 웹사이트
+http://info.cern.ch/
+
+HTML 문서 만들기
+- HTML 문서는 확장명을 .html로 저장
+- 문서를 작성할 수 있는 에디터라면 어디든지 작성이 가능
+- 대소문자를 구별하지 않음
+- 태그 형태로 괄호를 (예: <명령어>) 사용하여 표현
+- 띄어쓰기, 줄바꿈을 구별하지 않음
+- 시작태그, 종료태그로 구성되어 있음(예: <명령어> 내용 </명령어>)
+
+<html>
+	<head>
+	</head>
+	<body>
+	</body>
+</html>
+
+비주얼 스튜디오 코드
+https://code.visualstudio.com/download
+
+익스텐션
+Live Server
+HTML문서 실시간 확인하기: 알트 + L,O
+
+특수태그
+(개행): <br>
+(띄어쓰기): &nbsp;
+< : &lt;
+> : &gt;
+
+&lt;br&gt;
+
+에밋(Emmet)
+HTNL, XML, XSL 문서등을 편집할 때 빠른 코딩을 위해 사용하는 플로그인(구 젠코딩)
+
+HTML 주석문
+<! -- 시작해서 --> 끝남
+
+
+문단 태그 <P>
+- 문단을 만드는 태그
+- 블록 태그
+
+제목 태그 <h>
+- 제목을 표현할 수 있는 태그
+- 가장 큰 <h1> 태그부터 가장 작은 <h6> 태그까지 제공
+- 블록 태그
+- 검색엔진에서 키워드로 사용
+
+auto rename tag
+자동으로 시작 태그, 종료 태그를 수정
+
+
+HTML5의 문서 구조
+<!DOCTYPE html>
+- HTML 문서의 선언
+- HTML 버전 5를 나타냄
+
+<html lang="en">
+- lang 속성은 웹 접근성에 관한 명시
+- 스크린 리더에서 언어를 인식하여 자동으로 음성을 변환하거나 해당 언어에 적합한 발음을 제공
+- 한국어로 설정하려면 lang="ko"
+
+✔ 웹 접근성
+정상적인 웹 컨텐츠 사용이 가능한 일반 사용자부터 고령자, 장애인 같은 신체적, 환경적 조건에 제한이 있는 사용자를 포함해 모든 사용자들이 동등하게 접근할 수 있도록 웹 컨텐츠를 제작하는 기법
+
+✔ 속성
+- 요소에(element) 대한 추가적인 정보를 제공
+	<img src="apple.jpg">
+	---- ---  ---------
+	요소 속성   속성값
+
+	<img src="apple.jgp"> (O)
+	<img src='apple.jgp'> (O)
+	<img src=apple.jpg> (O)
+	<img src=맛있는 사과.jpg> (X)
+
+<meta charset="UTF-8">
+- meta 태그는 <haed> 태그에 정보를 추가하기 위한 태그
+- <meta name ="작성자">, keywords, Description, ... 의 값을 설정
+- charset="UTF-8" 속성은 문자를 인코딩할 때 문자코드를 설정하는 역할
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+- 모바일로 최적화된 사이트에 포함하는 META 속성 설정
+- viewprot: 가상의 화면
